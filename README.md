@@ -74,6 +74,13 @@ wget -O image_pusht_diffusion_policy_cnn.yaml \
 https://diffusion-policy.cs.columbia.edu/data/experiments/image/pusht/diffusion_policy_cnn/config.yaml
 ```
 
+## 📂 Datasets  
+
+We provide our **Dynamic Push-T dataset** in the `data/` folder of this repository for direct use with our implementation.  
+
+For all other simulation benchmarks (e.g., Robomimic, Franka Kitchen, Push-T), please kindly refer to the official [Diffusion Policy repository](https://diffusion-policy.cs.columbia.edu/) for detailed instructions on downloading and preparing datasets.  
+
+---
 
 ## ⚡ Quick Start with Jupyter Notebooks
 

@@ -20,6 +20,13 @@ Existing imitation learning methods freeze perception during action sequence gen
 
 DP-AG significantly outperforms state-of-the-art methods on **Robomimic, Franka Kitchen, Push-T, Dynamic Push-T**, and **real-world UR5 tasks**, delivering higher success rates, faster convergence, and smoother actions.
 
+
+<p align="center">
+  <img src="overview.png" alt="DP-AG Overview" width="80%">
+</p>
+
+*Figure: DP-AG extends Diffusion Policy by evolving observation features through an action-guided SDE and aligning perception–action interplay with a cycle-consistent contrastive loss.*
+
 ---
 
 ## 🛠️ Installation
